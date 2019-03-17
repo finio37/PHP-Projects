@@ -1,0 +1,249 @@
+body 
+{
+	background-color:black;
+	font-family:'trebuchet ms';
+}
+.clear {clear:both;}
+
+#str1_glowny
+{
+	width:900px;
+	margin:auto;
+	min-height:500px;
+	margin-top:70px;
+	background-color:black;
+	
+}
+#str1_glowny h2 
+{
+	margin-left:60px;
+	margin-bottom:50px;
+	color:white;
+}
+#lewy 
+{
+	float:left;
+}
+#lewy_dol
+{
+	margin-top:20px;
+	width:260px;
+	height:220px;
+	background-image:url('lewy_5.png');
+}
+#lewy_dol p
+{
+	color:white;
+	padding-top:55px;
+	padding-left:60px;
+	width:150px;
+	text-align:justify;
+}
+#lewy_dol p.komunikat
+{
+	width:180px;
+	color:white;
+	padding-left:10px;
+	text-align:left;
+}
+#lewy_gora 
+{
+	color:white;
+	padding-left:20px;
+	padding-top:80px;
+}
+#witaj
+{
+	padding-left:10px;
+	color:white;
+}
+#witaj a
+{
+	text-decoration:none;
+	}
+#witaj a:hover
+{
+	text-decoration:underline;
+}
+#prawy
+{
+	width:630px;
+	min-height:480px;
+	float:right;
+	background-image:url('PA160088blur.png');
+}
+#login_form
+{
+	width:330px;
+	min-height:30px;
+	margin-left:30px;
+	margin-top:235px;
+	color:white;
+}
+#login_form h2 
+{
+	font-weight:normal;
+	color:white;
+	margin-bottom:15px;
+}
+#login_form p.small
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#login_form a 
+{
+	text-decoration:none;
+	color:white;
+}
+#nuf
+{
+	width:330px;
+	margin-left:30px;
+	margin-top:140px;
+	color:white;
+	font-family:'trebuchet ms';
+}
+#nuf a 
+{
+	text-decoration:none;
+	color:white;
+}
+#nuf h2 
+{
+	margin-bottom:15px;
+}
+#nuf p.small
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#nuf table tr td
+{
+	color:white;
+}
+input 
+{
+	background-color:transparent;
+	color:white;
+	width:150px;
+	
+}
+#gallery 
+{
+	position:relative;
+	/*border:1px solid white;*/
+	height:480px;
+	
+}
+#gallery img.duze
+{
+	display:none;
+	position:absolute;
+	float:left;
+	top:210px;
+	left:105px;
+	
+}
+#gallery ul 
+{
+	list-style-type:none;
+}
+#gallery ul li 
+{
+	display:block;
+}
+#gallery a
+{
+	text-decoration:none;
+}
+
+#miniaturki_kol1
+{
+	position:absolute;
+	top:50px;
+	right:50px;
+}
+#wraper 
+{
+	position:relative;
+	min-height:291px;
+	/*background-color:red;*/
+	width:102px;
+	overflow:hidden;
+}
+#wraper .min 
+{
+	position:absolute;
+	overflow:hidden;
+	height:500px;
+}
+#miniaturki_kol1 ul.min
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#miniaturki_kol1 ul.min li
+{
+	list-style-type:none;
+	width:50px;
+	height:50px;
+	border:2px solid transparent;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+#miniaturki_kol1 ul.min li.hovered
+{
+	width:50px;
+	height:50px;
+	border:2px solid white;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+#miniaturki_kol1 ul.strzalka_gora
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#miniaturki_kol1 ul.strzalka_dol
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#miniaturki_kol1 ul.strzalka_dol li
+{
+	list-style-type:none;
+	width:50px;
+	height:20px;
+	margin-top:2px;
+}
+#miniaturki_kol1 ul.strzalka_gora li
+{
+	list-style-type:none;
+	width:50px;
+	height:20px;
+	margin-bottom:2px;
+}
+#menu ul li.menu
+{
+	list-style-type:none;
+	color:white;
+}
+#menu a 
+{
+	text-decoration:none;
+	color:white;
+}
+#menu a:hover
+{
+	text-decoration:underline;
+	color:white;
+}
+
+/*#p2 
+{
+	position:absolute;
+	top:150px;
+	right:50px;
+}*/
+
